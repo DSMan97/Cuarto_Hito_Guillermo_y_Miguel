@@ -74,6 +74,14 @@ class DataHolder: NSObject {
     }
    
 }
+    
+    func insertarImagen(imagen:HMIimagen, posicion pos:Int){
+        let rutaTemp =  String(format: "/Imagen/%d", pos)
+        let childUpdates = [rutaTemp:imagen.getDiccionary()]
+        
+    
+    }
+    
     func Login(txtUser:String, textPass:String, delegate:DataHolderDelegate){
         Auth.auth().signIn(withEmail: (txtUser), password:
         (textPass)) {(user, error) in
@@ -141,9 +149,9 @@ class DataHolder: NSObject {
     }
 
 
-
-
 }
+
+
 @objc protocol DataHolderDelegate{
     @objc optional func DHDdescargaCiudadesCompleta(blFin:Bool)
     @objc optional func DHDLogin (blFin:Bool)
