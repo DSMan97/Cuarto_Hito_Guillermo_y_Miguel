@@ -7,7 +7,6 @@
 //
 
 import UIKit
-
 class Perfil: NSObject {
     
     let IDnombre = "Nombre"
