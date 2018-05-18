@@ -11,7 +11,7 @@ import UIKit
 class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     @IBOutlet var imgView:UIImageView?
     let imagePicker = UIImagePickerController()
-    var imgData:NSData?;
+    var imgData:Data?;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,13 +43,19 @@ class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigati
     }
     
     @IBAction func subirConfirmarBoton(){
-        let imagenRef = DataHolder.sharedInstance.fireStorageRef.child("perfiles/imagenprueba.jpg")
-        let uploadTask
+        let imagenRef = DataHolder.sharedInstance.firStorage?.reference().child("perfiles/imagenprueba.jpg")
+        let uploadTask = imagenRef?.putData(imgData!,metadata:nil){ (metadata,error)
+            in
+            guard let metadata = metadata else{
+                return
+            }
+            let downloadURL = metadata.downloadURL()
+        }
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let img = info[UIImagePickerControllerOriginalImage] as? UIImage
-        imgData = UIImageJPEGRepresentation(img!, 0.5)! as NSData
+        imgData = UIImageJPEGRepresentation(img!, 0.5)! as Data
         
         imgView?.image = img
         self.dismiss(animated: true, completion: nil)
