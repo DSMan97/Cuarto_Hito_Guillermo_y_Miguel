@@ -12,6 +12,7 @@
 		073C9EF62091CF1800604ACF /* Tercer_HitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C9EF52091CF1800604ACF /* Tercer_HitoUITests.swift */; };
 		075FEC7420A226DE002312A3 /* LocationAdmin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075FEC7320A226DE002312A3 /* LocationAdmin.swift */; };
 		075FEC7D20A22E29002312A3 /* TrabajoFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 075FEC7B20A22E29002312A3 /* TrabajoFinal.xcdatamodeld */; };
+		0794B90420AEE5FA0096440A /* Base.Iproj in Resources */ = {isa = PBXBuildFile; fileRef = 0794B90320AEE5FA0096440A /* Base.Iproj */; };
 		07E955BA2091DFE2009B48E6 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E955A82091DFDF009B48E6 /* City.swift */; };
 		07E955BB2091DFE2009B48E6 /* VCMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E955A92091DFDF009B48E6 /* VCMap.swift */; };
 		07E955BC2091DFE2009B48E6 /* VCColeccion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E955AA2091DFDF009B48E6 /* VCColeccion.swift */; };
@@ -66,6 +67,7 @@
 		073C9EF72091CF1800604ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075FEC7320A226DE002312A3 /* LocationAdmin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAdmin.swift; sourceTree = "<group>"; };
 		075FEC7C20A22E29002312A3 /* TrabajoFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrabajoFinal.xcdatamodel; sourceTree = "<group>"; };
+		0794B90320AEE5FA0096440A /* Base.Iproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.Iproj; sourceTree = "<group>"; };
 		07E955A82091DFDF009B48E6 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		07E955A92091DFDF009B48E6 /* VCMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMap.swift; sourceTree = "<group>"; };
 		07E955AA2091DFDF009B48E6 /* VCColeccion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCColeccion.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 		073C9ED42091CF1600604ACF /* Cuarto_Hito */ = {
 			isa = PBXGroup;
 			children = (
+				0794B90320AEE5FA0096440A /* Base.Iproj */,
 				075FEC7B20A22E29002312A3 /* TrabajoFinal.xcdatamodeld */,
 				07E955B12091DFE0009B48E6 /* GoogleService-Info.plist */,
 				07E955AD2091DFE0009B48E6 /* Assets.xcassets */,
@@ -337,6 +340,7 @@
 				07E955CD2091E025009B48E6 /* eliminar-pis-de-gato.jpg in Resources */,
 				07E955D22091E033009B48E6 /* LaunchScreen.storyboard in Resources */,
 				07E955C82091DFE2009B48E6 /* perro.png in Resources */,
+				0794B90420AEE5FA0096440A /* Base.Iproj in Resources */,
 				07E955D32091E033009B48E6 /* Main.storyboard in Resources */,
 				07E955C12091DFE2009B48E6 /* canario.png in Resources */,
 				07E955C72091DFE2009B48E6 /* caballo.png in Resources */,
