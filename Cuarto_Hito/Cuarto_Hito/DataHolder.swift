@@ -75,12 +75,11 @@ class DataHolder: NSObject {
    
 }
     
-    func insertarImagen(imagen:HMIimagen, posicion pos:Int){
-        let rutaTemp =  String(format: "/Imagen/%d", pos)
-        let childUpdates = [rutaTemp:imagen.getDiccionary()]
+  //  func insertarImagen(imagen:HMIimagen, posicion pos:Int){
+       // let rutaTemp =  String(format: "/Imagen/%d", pos)
+        //let childUpdates = [rutaTemp:imagen.getDiccionary()]
         
-    
-    }
+    //}
     
     func Login(txtUser:String, textPass:String, delegate:DataHolderDelegate){
         Auth.auth().signIn(withEmail: (txtUser), password:

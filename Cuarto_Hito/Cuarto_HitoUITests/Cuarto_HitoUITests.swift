@@ -8,7 +8,7 @@
 
 import XCTest
 
-class Tercer_HitoUITests: XCTestCase {
+class Cuarto_HitoUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()
