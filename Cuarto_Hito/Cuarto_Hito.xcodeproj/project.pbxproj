@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0711FA8320AF15690040CF12 /* VCSelectIMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0711FA8220AF15690040CF12 /* VCSelectIMG.swift */; };
 		073C9ED82091CF1600604ACF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C9ED72091CF1600604ACF /* ViewController.swift */; };
 		073C9EEB2091CF1800604ACF /* Cuarto_HitoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C9EEA2091CF1800604ACF /* Cuarto_HitoTests.swift */; };
 		073C9EF62091CF1800604ACF /* Cuarto_HitoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073C9EF52091CF1800604ACF /* Cuarto_HitoUITests.swift */; };
@@ -58,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0711FA8220AF15690040CF12 /* VCSelectIMG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCSelectIMG.swift; sourceTree = "<group>"; };
 		073C9ED22091CF1600604ACF /* Cuarto_Hito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuarto_Hito.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		073C9ED72091CF1600604ACF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		073C9EE12091CF1800604ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				07E955B92091DFE2009B48E6 /* VCPrincipal.swift */,
 				07E955B82091DFE1009B48E6 /* VCRegister.swift */,
 				075FEC7320A226DE002312A3 /* LocationAdmin.swift */,
+				0711FA8220AF15690040CF12 /* VCSelectIMG.swift */,
 			);
 			path = Cuarto_Hito;
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				07E955C42091DFE2009B48E6 /* DataHolder.swift in Sources */,
 				075FEC7D20A22E29002312A3 /* TrabajoFinal.xcdatamodeld in Sources */,
 				07E955C02091DFE2009B48E6 /* Perfil.swift in Sources */,
+				0711FA8320AF15690040CF12 /* VCSelectIMG.swift in Sources */,
 				07E955BD2091DFE2009B48E6 /* TVCMiCelda.swift in Sources */,
 				07E955C22091DFE2009B48E6 /* AppDelegate.swift in Sources */,
 				07E955BB2091DFE2009B48E6 /* VCMap.swift in Sources */,
