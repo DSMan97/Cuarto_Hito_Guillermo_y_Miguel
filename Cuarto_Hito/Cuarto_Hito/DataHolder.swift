@@ -14,6 +14,8 @@ import FirebaseStorage
 class DataHolder: NSObject {
     static let sharedInstance:DataHolder = DataHolder()
     var fireStoreDB:Firestore?
+    var fireStorage = Storage.storage()
+    var fireStorageRef = Storage.storage().reference()
     var miPerfil: Perfil=Perfil()
     var arAnimales: [City] = NSArray() as! [City]
     var vcPrincipal:VCPrincipal?
@@ -25,8 +27,12 @@ class DataHolder: NSObject {
     var firStorage:Storage?
     func initFireBase(){
         FirebaseApp.configure()
+        fireStorageRef = fireStorageRef.child("mountains.jpg")
         fireStoreDB=Firestore.firestore()
         firStorage=Storage.storage()
+        fireStorageRef = fireStorage.reference()
+       
+        
     }
     
     func descargarPeriles(delegate:DataHolderDelegate){

@@ -11,7 +11,7 @@ import UIKit
 class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     @IBOutlet var imgView:UIImageView?
     let imagePicker = UIImagePickerController()
-    
+    var imgData:NSData?;
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +27,36 @@ class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigati
     
     @IBAction func BotonGaleria(){
         
+        imagePicker.allowsEditing = false
+        imagePicker.sourceType = .photoLibrary
+        
+        self.present(imagePicker, animated: true, completion: nil)
+        
     }
     
     @IBAction func BotonCamara(){
         
+        imagePicker.allowsEditing = false
+        imagePicker.sourceType = .camera
+        
+        self.present(imagePicker, animated: true, completion: nil)
     }
+    
+    @IBAction func subirConfirmarBoton(){
+        let imagenRef = DataHolder.sharedInstance.fireStorageRef.child("perfiles/imagenprueba.jpg")
+        let uploadTask
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        let img = info[UIImagePickerControllerOriginalImage] as? UIImage
+        imgData = UIImageJPEGRepresentation(img!, 0.5)! as NSData
+        
+        imgView?.image = img
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        self.dismiss(animated: true, completion: nil)    }
 
     /*
     // MARK: - Navigation
