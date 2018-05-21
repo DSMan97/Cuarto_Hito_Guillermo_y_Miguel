@@ -185,7 +185,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="dCq-X6-AXz" firstAttribute="leading" secondItem="XNt-BE-TBc" secondAttribute="leading" constant="8" id="3NQ-uV-EL1"/>
                                     <constraint firstAttribute="trailing" secondItem="pzn-dW-XnS" secondAttribute="trailing" constant="67.5" id="62I-za-f5O"/>
@@ -211,7 +211,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="GgV-kX-LNg" secondAttribute="bottom" constant="17" id="0Xa-gt-SOR"/>
                                     <constraint firstItem="euT-Eu-V0c" firstAttribute="centerX" secondItem="GgV-kX-LNg" secondAttribute="centerX" id="40d-5W-WY5"/>
@@ -237,7 +237,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="knO-TA-c0g" firstAttribute="top" secondItem="Ica-wf-V9p" secondAttribute="bottom" constant="1" id="73F-nu-DRn"/>
                                     <constraint firstAttribute="trailing" secondItem="knO-TA-c0g" secondAttribute="trailing" constant="36" id="MUF-3f-aao"/>
@@ -263,7 +263,7 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="tWe-Pj-2wB" firstAttribute="top" secondItem="2p5-Ey-txF" secondAttribute="bottom" constant="8" id="BcN-ZG-BM1"/>
                                     <constraint firstItem="2p5-Ey-txF" firstAttribute="centerX" secondItem="HmY-B5-jnB" secondAttribute="centerX" constant="0.5" id="GSK-1b-yNt"/>
@@ -289,7 +289,7 @@
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="gCG-Ip-MFn" secondAttribute="bottom" constant="10" id="A9W-IE-HXj"/>
                                     <constraint firstItem="nF6-qv-EAq" firstAttribute="centerX" secondItem="gCG-Ip-MFn" secondAttribute="centerX" id="GiD-DR-H9U"/>
@@ -315,7 +315,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="kft-1F-lsQ" firstAttribute="leading" secondItem="Diq-KO-3eP" secondAttribute="leading" id="11B-TG-q0U"/>
                                     <constraint firstAttribute="trailing" secondItem="Diq-KO-3eP" secondAttribute="trailing" constant="20.5" id="TJg-k2-d0L"/>
@@ -339,7 +339,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="YBa-b7-0Cv" firstAttribute="leading" secondItem="u2g-07-amW" secondAttribute="leading" constant="8" id="DjY-01-Vd0"/>
                                     <constraint firstItem="YBa-b7-0Cv" firstAttribute="top" secondItem="u2g-07-amW" secondAttribute="top" constant="8" id="GB0-um-beq"/>
@@ -361,7 +361,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.48387530464173822" green="1" blue="0.99531444186184259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -628,7 +628,6 @@
         <image name="eliminar-pis-de-gato.jpg" width="740" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fze-0J-xj9"/>
-        <segue reference="3nN-Qr-oIz"/>
+        <segue reference="ZSR-m6-DJy"/>
     </inferredMetricsTieBreakers>
 </document>
