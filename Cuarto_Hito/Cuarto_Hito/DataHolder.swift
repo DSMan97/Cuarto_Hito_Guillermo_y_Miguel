@@ -10,7 +10,6 @@ import UIKit
 import Firebase
 import FirebaseStorage
 
-
 class DataHolder: NSObject {
     static let sharedInstance:DataHolder = DataHolder()
     var fireStoreDB:Firestore?
@@ -21,15 +20,14 @@ class DataHolder: NSObject {
     var HMIimagen:[String:UIImage]=[:]
     var userdb:User?
     var arPerfiles:[Perfil]=[]
-    
     var firStorage:Storage?
+    var firStorageRef:StorageReference?
+
     func initFireBase(){
         FirebaseApp.configure()
         fireStoreDB=Firestore.firestore()
         firStorage=Storage.storage()
-      
-       
-        
+        firStorageRef=firStorage?.reference()
     }
     
     func descargarPeriles(delegate:DataHolderDelegate){

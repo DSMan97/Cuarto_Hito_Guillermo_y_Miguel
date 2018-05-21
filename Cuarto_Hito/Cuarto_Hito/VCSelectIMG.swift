@@ -43,8 +43,8 @@ class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigati
     }
     
     @IBAction func subirConfirmarBoton(){
-        let imagenRef = DataHolder.sharedInstance.firStorage?.reference().child("perfiles/imagenprueba.jpg")
-        let uploadTask = imagenRef?.putData(imgData!,metadata:nil){ (metadata,error)
+        let imagenRef = DataHolder.sharedInstance.firStorageRef?.child("perfiles/imagenprueba.jpg")
+        let uploadTask = imagenRef!.putData(imgData!,metadata:nil){ (metadata,error)
             in
             guard let metadata = metadata else{
                 return
