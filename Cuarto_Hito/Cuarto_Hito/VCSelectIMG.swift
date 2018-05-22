@@ -43,7 +43,9 @@ class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigati
     }
     
     @IBAction func subirConfirmarBoton(){
-        let imagenRef = DataHolder.sharedInstance.firStorageRef?.child("perfiles/imagenprueba.jpg")
+        let addtiempoMilis:Int = Int((Date().timeIntervalSince1970 * 1000.0).rounded())
+          let ruta_img:String = String(format: "perfiles/miimagen%d.jpg", addtiempoMilis)
+        let imagenRef = DataHolder.sharedInstance.firStorageRef?.child(ruta_img)
         let uploadTask = imagenRef!.putData(imgData!,metadata:nil){ (metadata,error)
             in
             guard let metadata = metadata else{
@@ -56,7 +58,6 @@ class VCSelectIMG: UIViewController, UIImagePickerControllerDelegate, UINavigati
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         let img = info[UIImagePickerControllerOriginalImage] as? UIImage
         imgData = UIImageJPEGRepresentation(img!, 0.5)! as Data
-        
         imgView?.image = img
         self.dismiss(animated: true, completion: nil)
     }
