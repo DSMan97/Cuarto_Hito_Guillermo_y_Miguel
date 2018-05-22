@@ -32,7 +32,7 @@
 		07E955CB2091DFE2009B48E6 /* VCPrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E955B92091DFE2009B48E6 /* VCPrincipal.swift */; };
 		07E955CD2091E025009B48E6 /* eliminar-pis-de-gato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07E955CC2091E025009B48E6 /* eliminar-pis-de-gato.jpg */; };
 		07E955D22091E033009B48E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E955CE2091E033009B48E6 /* LaunchScreen.storyboard */; };
-		07E955D32091E033009B48E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07E955D02091E033009B48E6 /* Main.storyboard */; };
+		1A1F92BA20B43AD400899D05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1F92B820B43AD400899D05 /* Main.storyboard */; };
 		27B2A4709A7CE0F1233D6497 /* Pods_Cuarto_HitoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62CE64254020E0CB181FC66 /* Pods_Cuarto_HitoUITests.framework */; };
 		29B7A44B5C7D2801ABB25748 /* Pods_Cuarto_Hito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 532E0B3CE9F89209F11BA291 /* Pods_Cuarto_Hito.framework */; };
 		2EE135E6FC3EDABC211178D9 /* Pods_Cuarto_HitoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F38FA851304F9A2B5EB3748 /* Pods_Cuarto_HitoTests.framework */; };
@@ -90,9 +90,9 @@
 		07E955B92091DFE2009B48E6 /* VCPrincipal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPrincipal.swift; sourceTree = "<group>"; };
 		07E955CC2091E025009B48E6 /* eliminar-pis-de-gato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eliminar-pis-de-gato.jpg"; sourceTree = "<group>"; };
 		07E955CF2091E033009B48E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		07E955D12091E033009B48E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A82EC9E5EFD6BC7085CA0A1 /* Pods-Cuarto_Hito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cuarto_Hito.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cuarto_Hito/Pods-Cuarto_Hito.release.xcconfig"; sourceTree = "<group>"; };
 		118A1C1EEB296C26683387B8 /* Pods-Tercer_HitoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tercer_HitoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tercer_HitoTests/Pods-Tercer_HitoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A1F92B920B43AD400899D05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F38FA851304F9A2B5EB3748 /* Pods_Cuarto_HitoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuarto_HitoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0F2D784570F269D9FDAB37 /* Pods-Tercer_HitoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tercer_HitoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tercer_HitoUITests/Pods-Tercer_HitoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		532E0B3CE9F89209F11BA291 /* Pods_Cuarto_Hito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cuarto_Hito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -179,7 +179,7 @@
 				07E955B02091DFE0009B48E6 /* AppDelegate.swift */,
 				073C9ED72091CF1600604ACF /* ViewController.swift */,
 				073C9EE12091CF1800604ACF /* Info.plist */,
-				07E955D02091E033009B48E6 /* Main.storyboard */,
+				1A1F92B820B43AD400899D05 /* Main.storyboard */,
 				07E955CE2091E033009B48E6 /* LaunchScreen.storyboard */,
 				07E955A82091DFDF009B48E6 /* City.swift */,
 				07E955AC2091DFE0009B48E6 /* CVCMicelda2.swift */,
@@ -360,11 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				07E955C92091DFE2009B48E6 /* huron.png in Resources */,
+				1A1F92BA20B43AD400899D05 /* Main.storyboard in Resources */,
 				07E955BF2091DFE2009B48E6 /* Assets.xcassets in Resources */,
 				07E955CD2091E025009B48E6 /* eliminar-pis-de-gato.jpg in Resources */,
 				07E955D22091E033009B48E6 /* LaunchScreen.storyboard in Resources */,
 				07E955C82091DFE2009B48E6 /* perro.png in Resources */,
-				07E955D32091E033009B48E6 /* Main.storyboard in Resources */,
 				07E955C12091DFE2009B48E6 /* canario.png in Resources */,
 				07E955C72091DFE2009B48E6 /* caballo.png in Resources */,
 				07E955C52091DFE2009B48E6 /* gato.png in Resources */,
@@ -618,10 +618,10 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		07E955D02091E033009B48E6 /* Main.storyboard */ = {
+		1A1F92B820B43AD400899D05 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				07E955D12091E033009B48E6 /* Base */,
+				1A1F92B920B43AD400899D05 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
